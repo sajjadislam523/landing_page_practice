@@ -7,19 +7,30 @@
 }
 
 /* Shared settings */
+.text-center {
+    text-align: center;
+}
 
-body {
+span {
+    color: #FF0000;
+}
+
+.black {
+    color: #070211;
+}
+
+.merriweather {
     font-family: "Merriweather", serif;
 }
 
-.text-center {
-    text-align: center;
+.inter {
+    font-family: "Inter";
 }
 
 /* banner section style starts here */
 
 .banner-section {
-    max-width: 1320px;
+    max-width: 1300px;
     min-height: 600px;
     margin: 20px auto;
     background-image: linear-gradient(180.00deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%), url("../images/banner.png");
@@ -62,14 +73,12 @@ h1 {
 
 .second-section-content h1 {
     color: rgb(255, 0, 0);
-    font-family: "Inter";
     font-size: 88px;
     font-weight: 700;
 }
 
 .second-section-content p {
     color: rgb(255, 0, 0);
-    font-family: "Inter";
     font-size: 24px;
     font-weight: 500;
 }
@@ -94,7 +103,7 @@ h1 {
 
 /* Midnight party section */
 .midnight-party-container {
-    max-width: 1320px;
+    max-width: 1300px;
     min-height: 600px;
     margin: 0 auto;
     display: flex;
@@ -118,7 +127,6 @@ h1 {
 
 .leftside-heading {
     color: rgb(255, 255, 255);
-    font-family: "Merriweather", serif;
     font-size: 60px;
     font-weight: 900;
     line-height: 88px;
@@ -126,7 +134,6 @@ h1 {
 
 .leftside-text {
     color: rgba(255, 255, 255, 0.8);
-    font-family: "Inter", sans-serif;
     font-size: 16px;
     font-weight: 300;
     line-height: 30px;
@@ -143,10 +150,113 @@ h1 {
 
 .midnight-button {
     color: rgb(255, 255, 255);
-    font-family: "Inter", sans-serif;
     font-size: 20px;
     font-weight: 700;
     line-height: 24px;
     padding-top: 50px;
     padding-right: 320px;
+}
+
+
+/* Address section */
+.address-container {
+    max-width: 1300px;
+    min-height: 400px;
+    margin: 120px auto;
+    border-radius: 16px;
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.address-description {
+    margin: 150px auto;
+}
+
+
+.place {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    padding-bottom: 40px;
+
+}
+
+.join-btn {
+    border-radius: 8px;
+    background-color: rgb(255, 0, 0);
+    padding: 16px 32px;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+/* holiday section design */
+.holiday-section-container {
+    max-width: 1300px;
+    height: 986.07px;
+    border: 2px solid black;
+    margin: 100px auto;
+    position: relative;
+}
+
+.holiday-text-container {
+    width: 1068px;
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.holiday-text-container h5 {
+    color: rgb(7, 2, 17);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+}
+
+.holiday-text-container p {
+    color: rgba(7, 2, 17, 0.6);
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+.solid-color {
+    width: 1300px;
+    height: 229px;
+    background-color: #FF0000;
+    position: absolute;
+    top: 77%;
+}
+
+.gift-box {
+    width: 674.82px;
+    height: 577.96px;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    top: 10%;
+}
+
+.girl-container{
+    width: 429px;
+    height: 433px;
+    position: relative;
+    left: 25.7%;
+    bottom: 5.9%;
+}
+
+.discount{
+    position: absolute;
+    bottom: 30%;
+    left: 50%;
+    z-index: 1;
 }
